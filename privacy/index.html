@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Balmly — Privacy Policy</title>
+<meta name="description" content="Balmly's privacy policy: what data is and isn't collected, where it goes, and who processes it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="logo">b<span class="dot">.</span>almly</a>
+  </div>
+</header>
+
+<main class="legal-page">
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Updated September 10, 2026</p>
+
+    <p>Balmly helps you write a message of encouragement for someone else. This
+    policy explains what information Balmly handles, where it goes, and who
+    processes it. Balmly has no account or login system: it does not ask for
+    your name, email address, or any other personal identifier, and it does not
+    build a profile of you.</p>
+
+    <div class="note">
+      <p><strong>Balmly is not a medical, counseling, or crisis service.</strong>
+      It is an automated tool for creative writing and faith-based encouragement.
+      It does not monitor your activity, cannot guarantee detection of any risk,
+      and does not contact emergency services. If you or someone else is in
+      immediate danger, call 911, or call or text 988 (the Suicide &amp; Crisis
+      Lifeline) in the US.</p>
+    </div>
+
+    <h2>What you type into the app</h2>
+    <p>To create a message, you describe another person's situation and may enter
+    that person's name and their relationship to you. When you ask Balmly to
+    check or generate a message, this text is sent over an encrypted connection
+    to Balmly's backend for that request only. <strong>It is never written to any
+    database</strong> — not on Balmly's servers, and not by Balmly anywhere else.
+    Once the request is complete, Balmly does not retain the description or the
+    names.</p>
+    <p>Balmly's server logs record only technical metadata about each request:
+    the message category, the internal safety-check flags, response time, and
+    status codes. The free-text description and any names you entered are
+    <strong>not</strong> included in these logs.</p>
+
+    <h2>Processing by Anthropic (Claude)</h2>
+    <p>The situation description is sent to Anthropic's Claude API as part of
+    checking and generating your message. Anthropic acts as a data processor for
+    this step, and its own API data-handling policies apply, separately from
+    this policy. See
+    <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">Anthropic's Privacy Policy</a>.</p>
+
+    <h2>The anonymous app identifier and your credit balance</h2>
+    <p>The first time you use Balmly, the app generates a random identifier (a
+    UUID) on your device and stores it in the operating system's secure
+    storage. This identifier is <strong>anonymous</strong>: no name, email, or
+    other personal detail is attached to it.</p>
+    <p>Your remaining credit balance is stored on Balmly's backend (a Cloudflare
+    D1 database), keyed to that anonymous identifier. Storing the balance
+    server-side is necessary so that credits you have purchased survive across
+    app sessions and cannot be altered from the device. No other information is
+    stored against the identifier.</p>
+
+    <h2>Purchases</h2>
+    <p>In-app purchases and receipt validation are handled by RevenueCat and by
+    the App Store. Your payment card details never pass through Balmly or its
+    servers. After a successful purchase, RevenueCat sends a notification to
+    Balmly's backend so that your credit balance can be updated. RevenueCat is a
+    separate data processor with its own privacy practices — see
+    <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">RevenueCat's Privacy Policy</a>.</p>
+
+    <h2>What Balmly does not do</h2>
+    <ul>
+      <li>No analytics or usage-tracking SDKs.</li>
+      <li>No advertising and no third-party ad or tracking networks.</li>
+      <li>No selling or sharing of personal information.</li>
+      <li>No real-time monitoring of your activity or the content you write.</li>
+      <li>No persistent identifier for you beyond the anonymous app identifier
+      described above.</li>
+    </ul>
+
+    <h2>Data processors</h2>
+    <ul>
+      <li><strong>Anthropic</strong> — runs the Claude API that checks and
+      generates message text.</li>
+      <li><strong>RevenueCat</strong> — processes in-app purchases and validates
+      receipts.</li>
+      <li><strong>Apple</strong> — processes payments through the App Store.</li>
+      <li><strong>Cloudflare</strong> — hosts Balmly's backend and the database
+      holding anonymous credit balances.</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>Balmly is not directed to children and does not knowingly collect
+    personal information from children.</p>
+
+    <h2>Availability</h2>
+    <p>Balmly is intended for use only within the United States.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy is updated, the date at the top of the page will change
+    accordingly.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about privacy, or requests relating to your data:
+    <a href="mailto:pekka.huuskonen@gmail.com">pekka.huuskonen@gmail.com</a>.
+    Because Balmly stores only an anonymous identifier and a credit balance, a
+    deletion request is most useful if you include that identifier if the app
+    makes it available to you.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <a href="/" class="logo">b<span class="dot">.</span>almly</a>
+    <div class="footer-links">
+      <a href="/privacy/">Privacy</a>
+      <a href="mailto:pekka.huuskonen@gmail.com">Support</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
